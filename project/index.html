@@ -1,0 +1,24 @@
+<form action="submit.php" method="POST">
+    <label for="item_name">Item Name:</label>
+    <input type="text" name="item_name" required><br>
+
+    <label for="description">Description:</label>
+    <textarea name="description" required></textarea><br>
+
+    <label for="location">Location:</label>
+    <input type="text" name="location" required><br>
+
+    <label for="date">Date:</label>
+    <input type="date" name="date" required><br>
+
+    <label for="contact_info">Contact Info:</label>
+    <input type="text" name="contact_info" required><br>
+
+    <label for="type">Type:</label>
+    <select name="type" required>
+        <option value="lost">Lost</option>
+        <option value="found">Found</option>
+    </select><br>
+
+    <input type="submit" value="Submit">
+</form>

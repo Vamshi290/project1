@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOSTINGS - Lost It-List It-Found It</title>
+    <!-- Pico.css for styling -->
+    <link href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <style>
+        body {
+            background-color: #e0f0ff; /* Light blue background color */
+            background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVl4YLRuGys8mzKu-is9Qe6DrGfXWYaf1gX_sO4Vvx93zLUz93gO86iDdN5Q73-20WjVA&usqp=CAU'); /* Replace with your desired background image URL */
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+            justify-content: space-between;
+            color: #333; /* Ensures text is readable over the background */
+        }
+        .header {
+            background-color: rgba(224, 240, 255, 0.8); /* Semi-transparent background */
+            padding: 10px 0;
+            text-align: center;
+            color: #007bff;
+            font-size: 36px;
+            position: relative;
+        }
+        .nav-container {
+            position: absolute;
+            right: 10px;
+            top: 10px;
+        }
+        .container {
+            display: flex;
+            justify-content: center; /* Center the content horizontally */
+            align-items: flex-start;
+            width: 50%;
+            margin: 10px auto 0 auto;
+            flex-grow: 1;
+        }
+        .content {
+            flex-grow: 1;
+            background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background for better readability */
+            padding: 20px;
+            border-radius: 10px;
+            width: 64%; /* Reduced width by 20% */
+        }
+        hgroup h2 {
+            font-size: 28px;
+            color: #0056b3;
+        }
+        hgroup h3 {
+            font-size: 20px;
+            color: #0056b3;
+        }
+        p {
+            font-size: 16px;
+            color: #333;
+        }
+        .btn-container {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            width: 250px;
+        }
+        .btn {
+            padding: 8px 20px;
+            margin: 8px 0;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 50px;
+            text-decoration: none;
+            font-size: 14px;
+            transition: background-color 0.3s ease;
+            width: 100%;
+            text-align: center;
+            box-sizing: border-box;
+        }
+        .btn:hover {
+            background-color: #0056b3;
+        }
+        .footer {
+            background-color: rgba(224, 240, 255, 0.8); /* Semi-transparent background */
+            padding: 10px 0;
+            text-align: center;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <strong>RECLAIM IT</strong>
+        <nav class="nav-container">
+            <a href="http://localhost/project/admin-login (1).html" class="btn">Admin login</a>
+        </nav>
+    </header>
+    <main class="container">
+        <div class="content">
+            <section>
+                <hgroup>
+                    <h2>Welcome!!</h2>
+                    <h3>Lost It - List It - Find It</h3>
+                </hgroup>
+                <p>Experience seamless lost and found item management.</p>
+                <div class="btn-container">
+                    <a href="http://localhost/project/retrieve.php" class="btn">Retrieve</a>
+                    <a href="http://localhost/project/index.html" class="btn">Submit Lost and Found Items</a>
+                    <a href="http://localhost/project/aboutus.html" class="btn">About Us</a>
+                    <a href="http://localhost/project/contactus.html" class="btn">Contact Us</a>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer class="footer">
+        <small><a href="#">Privacy Policy</a> • <a href="#">Terms of Service</a></small>
+    </footer>
+</body>
+</html>
